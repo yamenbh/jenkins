@@ -23,4 +23,9 @@ public class HelloController {
     public String getPresentation(){
         return "presentation";
     }
+
+    @GetMapping("/tests")
+    public String getTests(){
+        return "presentation";
+    }
 }
